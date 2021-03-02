@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <script src="main.js"></script>
+    <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999;">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Gallery</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#app">Grid</a></li>
+                <li><a href="#myCarousel">Slide</a></li>
+
+            </ul>
+
+
+        </div>
+
+    </nav>
+
+    <div class="container">
+        <section id="app">
+            <h1>Image Grid</h1>
+           
+                <img src="https://cms.qz.com/wp-content/uploads/2019/04/marvel-avengers-endgame-e1556039297104.jpg?quality=75&strip=all&w=1600&h=900&crop=1" class="img-responsive">
+           
+
+        </section>
+
+
+
+
+
+        <h1>Image slide</h1>
+
+        <div id="myCarousel" class="carousel slide">
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <center>
+                        <a href="#" target="_blank">
+                            <img src="https://cms.qz.com/wp-content/uploads/2019/04/marvel-avengers-endgame-e1556039297104.jpg?quality=75&strip=all&w=1600&h=900&crop=1" class="img-responsive">
+                        </a>
+                        <div class="carousel-content">
+                            <p>Avenger</p>
+                        </div>
+                    </center>
+                </div>
+
+                <div class="item">
+                    <center>
+                        <a href="#" target="_blank">
+                            <img src="https://cms.qz.com/wp-content/uploads/2019/04/marvel-avengers-endgame-e1556039297104.jpg?quality=75&strip=all&w=1600&h=900&crop=1" class="img-responsive">
+                        </a>
+                        <div class="carousel-content">
+                            <p>Avenger</p>
+                        </div>
+                    </center>
+                </div>
+
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div>
+
+
+
+
+    </div>
+</body>
+
+</html>
